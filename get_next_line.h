@@ -6,7 +6,7 @@
 /*   By: makacem <makacem@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/07 14:51:05 by makacem           #+#    #+#             */
-/*   Updated: 2022/01/20 17:57:08 by makacem          ###   ########.fr       */
+/*   Updated: 2022/03/01 15:42:07 by makacem          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,15 +18,11 @@
 # include <unistd.h>
 # include <stdio.h>
 
-
-char	*get_next_line(int	fd);
+char	*get_next_line(int fd);
 size_t	ft_strlen(const char *str);
-size_t	ft_strlcpy(char *dst, const char *src, size_t size);
-size_t	ft_strlcat(char *dst, const char *src, size_t dstsize);
-char	*ft_strjoin(char const *s1, char const *s2);
-char	*ft_strchr(const char *s, int c);
-void	ft_bzero(void	*s, size_t n);
+size_t	ft_strlcpy(char *dst, char *src, size_t size);
+char	*ft_strjoin(char *s1, char *s2);
+char	*ft_strchr(char *s, int c);
 void	*ft_calloc(size_t count, size_t size);
-
 
 #endif
